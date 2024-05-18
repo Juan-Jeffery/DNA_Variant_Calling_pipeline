@@ -1,4 +1,5 @@
-# DNA variant calling pipeline
+<center><h1>DNA variant calling pipeline</h1></center>
+
 ## Workflow
 1. **Quality Control :** FastQC & MultiQC -> TrimMomatic, qualimap
 2. **Alignment :** BWA -> GATK
