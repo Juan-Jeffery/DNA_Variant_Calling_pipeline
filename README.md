@@ -7,7 +7,7 @@
    - Indel Calling: Mutect2, Varscan2, Pindel
    - CNV Calling: CNVkit -> GISTIC2
 5. **Annotation:** VEP
-6. **Format Conversion and Visualization:** vcf2maf, IGV-reports, maftools
+6. **Format Conversion and Visualization:** vcf2maf, IGV-reports, maftools, SigProFiler
 
 ## Package version
 Make sure to verify and install the required packages by reviewing the `.yml` file, excluding MutsigCV.
@@ -39,7 +39,7 @@ Make sure to verify and install the required packages by reviewing the `.yml` fi
   cnvkit                    0.9.10             pyhdfd78af_0    bioconda
   gistic2                   2.0.23                        0    hcc
   ```
-**WES_Annotation (Annotation(vep, vcf2maf, SigProFiler))**
+**WES_Annotation (Annotation(vep, vcf2maf, igv-reports, SigProFiler))**
   ```bash
   # Name                    Version                   Build  Channel
   igv-reports               1.12.0             pyh7cba7a3_0    bioconda
