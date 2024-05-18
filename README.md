@@ -43,9 +43,13 @@ Make sure to verify and install the required packages by reviewing the `.yml` fi
   ```
 ## Reference file
 **GRCh38.d1.vd1.fa**
+
 The ref and ref index file can be downloaded from [here](https://gdc.cancer.gov/about-data/gdc-data-processing/gdc-reference-files).
+
 **Other**
+
 - Homo_sapiens_assembly38.dbsnp138.vcf
 - af-only-gnomad.hg38.vcf.gz
 - 1000g_pon.hg38.vcf.gz
+
 The file can be downloaded from [GATK website](https://gatk.broadinstitute.org/hc/en-us/articles/360035890811-Resource-bundle) or [genomics-public-data](https://console.cloud.google.com/storage/browser/genomics-public-data/resources/broad/hg38/v0/).
