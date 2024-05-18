@@ -65,4 +65,4 @@ The file can be downloaded from [GATK Website](https://gatk.broadinstitute.org/h
 
 ## Workflow
 
-![image](https://github.com/Juan-Jeffery/DNA_Variant_Calling_pipeline/blob/main/img/DNA_pipeline.png)
+<img src="https://github.com/Juan-Jeffery/DNA_Variant_Calling_pipeline/blob/main/img/DNA_pipeline.png" width="300" height="400">
