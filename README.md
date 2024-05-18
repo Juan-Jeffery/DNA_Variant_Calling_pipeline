@@ -1,6 +1,7 @@
 # DNA Variant Calling pipeline
- 
-![image](https://github.com/Juan-Jeffery/DNA_Variant_Calling_pipeline/blob/main/img/DNA_pipeline.png)
+
+## Introduction
+
 
 ## Package version
 Make sure to verify and install the required packages by reviewing the `.yml` file, excluding MutsigCV.
@@ -55,3 +56,7 @@ If you don't want to install the `.fai` and `.dict` files, you can also index th
 - 1000g_pon.hg38.vcf.gz
 
 The file can be downloaded from [GATK Website](https://gatk.broadinstitute.org/hc/en-us/articles/360035890811-Resource-bundle) or [genomics-public-data](https://console.cloud.google.com/storage/browser/genomics-public-data/resources/broad/hg38/v0/).
+
+## Work flow
+
+![image](https://github.com/Juan-Jeffery/DNA_Variant_Calling_pipeline/blob/main/img/DNA_pipeline.png)
