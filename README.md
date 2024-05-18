@@ -1,7 +1,47 @@
 # DNA Variant Calling pipeline
 
-## Introduction
+## WES Analysis Pipeline Overview:
 
+1. **Quality Control:**
+   - Utilize FastQC & MultiQC for initial quality assessment.
+   - Use TrimMomatic to remove adapters.
+
+2. **Alignment:**
+   - Perform alignment with BWA.
+   - Utilize GATK for alignment refinement.
+
+3. **Variant Calling:**
+   - SNP Variant Calling:
+     - Mutect2
+     - Varscan2
+     - Muse
+
+   - Indel Variant Calling:
+     - Mutect2
+     - Varscan2
+     - Pindel
+
+4. **Copy Number Variation (CNV) Analysis:**
+   - Utilize cnvkit for CNV calling.
+   - Visualize results using GISTIC2.
+
+5. **Annotation:**
+   - Use VEP for variant annotation.
+
+6. **Format Conversion and Visualization:**
+   - Convert VCF to MAF using vcf2maf.
+   - Visualize mutation locations using IGV-reports.
+   - Integrate and visualize data using maftools.
+
+## Workflow Overview:
+1. **Quality Control:** FastQC & MultiQC -> TrimMomatic
+2. **Alignment:** BWA -> GATK
+3. **Variant Calling:** 
+   - SNP Calling: Mutect2, Varscan2, Muse
+   - Indel Calling: Mutect2, Varscan2, Pindel
+4. **CNV Analysis:** cnvkit -> GISTIC2
+5. **Annotation:** VEP
+6. **Format Conversion and Visualization:** vcf2maf, IGV-reports, maftools
 
 ## Package version
 Make sure to verify and install the required packages by reviewing the `.yml` file, excluding MutsigCV.
