@@ -6,7 +6,7 @@
 Make sure to verify and install the required packages by reviewing the `.yml` file, excluding MutsigCV.
 ### WES_preprocessing_SNP (QC + Alinment + Variant_Calling(Mutect,varscan,muse))
 ```bash
-Name                    Version                   Build   Channel
+# Name                    Version                   Build  Channel
 bwa                     0.7.17               h5bf99c6_8    bioconda 
 picard                  2.18.29                       0    bioconda
 samtools                1.6                  hb116620_7    bioconda 
