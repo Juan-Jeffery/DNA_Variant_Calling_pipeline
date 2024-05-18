@@ -4,7 +4,7 @@
 
 ## Package version
 Make sure to verify and install the required packages by reviewing the `.yml` file, excluding MutsigCV.
-- **WES_preprocessing_SNP (QC + Alinment + Variant_Calling(Mutect,varscan,muse))**
+**WES_preprocessing_SNP (QC + Alinment + Variant_Calling(Mutect,varscan,muse))**
   ```bash
   # Name                    Version                   Build  Channel
   bwa                       0.7.17               h5bf99c6_8    bioconda 
@@ -20,18 +20,18 @@ Make sure to verify and install the required packages by reviewing the `.yml` fi
   muse                      1.0.rc               h2e03b76_5    bioconda
   varscan                   2.4.6                hdfd78af_0    bioconda
   ```
-- **WES_Indel (Variant_Calling(Pindel))**
+**WES_Indel (Variant_Calling(Pindel))**
   ```bash
   # Name                    Version                   Build  Channel
   pindel                    0.2.5b9             h84372a0_10    bioconda
   ```
-- **WES_CNV (Variant_Calling(CNVkit))**
+**WES_CNV (Variant_Calling(CNVkit))**
   ```bash
   # Name                    Version                   Build  Channel
   cnvkit                    0.9.10             pyhdfd78af_0    bioconda
   gistic2                   2.0.23                        0    hcc
   ```
-- **WES_Annotation (Annotation(vep, vcf2maf, SigProFiler))**
+**WES_Annotation (Annotation(vep, vcf2maf, SigProFiler))**
   ```bash
   # Name                    Version                   Build  Channel
   igv-reports               1.12.0             pyh7cba7a3_0    bioconda
