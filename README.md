@@ -1,5 +1,5 @@
 # DNA Variant Calling pipeline
-## Workflow Overview:
+## Overview:
 1. **Quality Control:** FastQC & MultiQC -> TrimMomatic, qualimap
 2. **Alignment:** BWA -> GATK
 3. **Variant Calling:** 
