@@ -1,4 +1,4 @@
-<center><h1>DNA variant calling pipeline</h1></center>
+<div style="text-align:center;"><h1>DNA variant calling pipeline</h1></div>
 
 ## Workflow
 1. **Quality Control :** FastQC & MultiQC -> TrimMomatic, qualimap
