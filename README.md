@@ -1,13 +1,15 @@
 # DNA Variant Calling pipeline
-## Overview:
-1. **Quality Control:** FastQC & MultiQC -> TrimMomatic, qualimap
-2. **Alignment:** BWA -> GATK
-3. **Variant Calling:** 
-   - SNP Calling: Mutect2, Varscan2, Muse
-   - Indel Calling: Mutect2, Varscan2, Pindel
-   - CNV Calling: CNVkit -> GISTIC2
-5. **Annotation:** VEP
-6. **Format Conversion and Visualization:** vcf2maf, IGV-reports, maftools, SigProFiler
+## Workflow
+1. **Quality Control :** FastQC & MultiQC -> TrimMomatic, qualimap
+2. **Alignment :** BWA -> GATK
+3. **Variant Calling :** 
+   - SNP Calling : Mutect2, Varscan2, Muse
+   - Indel Calling : Mutect2, Varscan2, Pindel
+   - CNV Calling : CNVkit -> GISTIC2
+5. **Annotation :** VEP
+6. **Format Conversion and Visualization :** vcf2maf, IGV-reports, maftools, SigProFiler
+
+<img src="https://github.com/Juan-Jeffery/DNA_Variant_Calling_pipeline/blob/main/img/DNA_pipeline.png" width="600" height="600">
 
 ## Reference file
 **GRCh38.d1.vd1.fa**
@@ -63,7 +65,3 @@ Make sure to verify and install the required packages by reviewing the `.yml` fi
   vcf2maf                   1.6.21               hdfd78af_0    bioconda
   ensembl-vep               103.1          pl5262h4a94de4_2    bioconda 
   ```
-
-## Workflow
-
-<img src="https://github.com/Juan-Jeffery/DNA_Variant_Calling_pipeline/blob/main/img/DNA_pipeline.png" width="600" height="600">
