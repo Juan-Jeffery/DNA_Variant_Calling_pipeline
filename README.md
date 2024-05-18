@@ -1,38 +1,4 @@
 # DNA Variant Calling pipeline
-
-## WES Analysis Pipeline Overview:
-
-1. **Quality Control:**
-   - Utilize FastQC & MultiQC for initial quality assessment.
-   - Use TrimMomatic to remove adapters.
-
-2. **Alignment:**
-   - Perform alignment with BWA.
-   - Utilize GATK for alignment refinement.
-
-3. **Variant Calling:**
-   - SNP Variant Calling:
-     - Mutect2
-     - Varscan2
-     - Muse
-
-   - Indel Variant Calling:
-     - Mutect2
-     - Varscan2
-     - Pindel
-
-4. **Copy Number Variation (CNV) Analysis:**
-   - Utilize cnvkit for CNV calling.
-   - Visualize results using GISTIC2.
-
-5. **Annotation:**
-   - Use VEP for variant annotation.
-
-6. **Format Conversion and Visualization:**
-   - Convert VCF to MAF using vcf2maf.
-   - Visualize mutation locations using IGV-reports.
-   - Integrate and visualize data using maftools.
-
 ## Workflow Overview:
 1. **Quality Control:** FastQC & MultiQC -> TrimMomatic
 2. **Alignment:** BWA -> GATK
@@ -97,6 +63,6 @@ If you don't want to install the `.fai` and `.dict` files, you can also index th
 
 The file can be downloaded from [GATK Website](https://gatk.broadinstitute.org/hc/en-us/articles/360035890811-Resource-bundle) or [genomics-public-data](https://console.cloud.google.com/storage/browser/genomics-public-data/resources/broad/hg38/v0/).
 
-## Work flow
+## Workflow
 
 ![image](https://github.com/Juan-Jeffery/DNA_Variant_Calling_pipeline/blob/main/img/DNA_pipeline.png)
