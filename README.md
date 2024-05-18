@@ -1,11 +1,11 @@
 # DNA Variant Calling pipeline
-### Workflow Overview:
-1. **Quality Control:** FastQC & MultiQC -> TrimMomatic
+## Workflow Overview:
+1. **Quality Control:** FastQC & MultiQC -> TrimMomatic, qualimap
 2. **Alignment:** BWA -> GATK
 3. **Variant Calling:** 
    - SNP Calling: Mutect2, Varscan2, Muse
    - Indel Calling: Mutect2, Varscan2, Pindel
-4. **CNV Analysis:** cnvkit -> GISTIC2
+   - CNV Calling: CNVkit -> GISTIC2
 5. **Annotation:** VEP
 6. **Format Conversion and Visualization:** vcf2maf, IGV-reports, maftools
 
