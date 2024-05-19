@@ -22,9 +22,10 @@ samplesheet_path="${project_dir}/gdc_sample_sheet_test.2024-02-26.tsv"
 
 # Create output and log directories if they don't exist
 input_bam_dir="${project_dir}/sorted_du_bqsr_bam"
-output_mutect_dir="variants_calling/mutect"
+output_mutect_dir="./mutect"
+log_dir="./mutect/log"
 mkdir -p ${output_mutect_dir} && chmod a+rw ${output_mutect_dir}
-mkdir -p ${output_mutect_dir}/log && chmod a+rw ${output_mutect_dir}/log
+mkdir -p ${log_dir}g && chmod a+rw ${log_dir}
 
 ############### function ###############
 run_mutect(){
@@ -69,7 +70,7 @@ run_mutect(){
             -O "${output_mutect_dir}/${case_ID}.filtered.vcf" \
             -R ${ref_fa}
 
-    } > "${output_mutect_dir}/log/${case_ID}.log" 2>&1 || {
+    } > "${log_dir}/${case_ID}.log" 2>&1 || {
         echo "Error processing ${case_ID}. Check log file for details."
     }
 }
