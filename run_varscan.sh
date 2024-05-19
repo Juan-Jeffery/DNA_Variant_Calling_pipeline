@@ -18,8 +18,8 @@ samplesheet_path="${project_dir}/gdc_sample_sheet_test.2024-02-26.tsv"
 
 # Create output and log directories if they don't exist
 input_bam_dir="./sorted_du_bqsr_bam_biobambam"
-output_varscan_dir="./variants_calling/varscan"
-log_dir="./variants_calling/varscan/log"
+output_varscan_dir="./varscan"
+log_dir="./varscan/log"
 mkdir -p ${output_varscan_dir} && chmod a+rw ${output_varscan_dir}
 mkdir -p ${log_dir} && chmod a+rw ${log_dir}
 
