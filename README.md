@@ -13,7 +13,7 @@
 <img src="https://github.com/Juan-Jeffery/DNA_Variant_Calling_pipeline/blob/main/img/DNA_pipeline.png" width="600" height="600">
 
 ## Reference file
-**GRCh38.d1.vd1.fa**
+**GRCh38.d1.vd1.fa & gencode.v36.annotation.gtf**
 
 The ref and ref index file can be downloaded from [GDC Website](https://gdc.cancer.gov/about-data/gdc-data-processing/gdc-reference-files).
 
