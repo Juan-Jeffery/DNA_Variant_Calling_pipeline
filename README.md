@@ -8,7 +8,7 @@
    - Indel Calling : Mutect2, Varscan2, Pindel
    - CNV Calling : CNVkit -> GISTIC2
 5. **Annotation :** VEP
-6. **Format Conversion and Visualization :** vcf2maf, IGV-reports, maftools, SigProFiler
+6. **Format Conversion and Visualization :** vcf2maf, IGV-reports, maftools, SigProFiler, MutsigCV
 
 <img src="https://github.com/Juan-Jeffery/DNA_Variant_Calling_pipeline/blob/main/img/DNA_pipeline.png" width="600" height="600">
 
