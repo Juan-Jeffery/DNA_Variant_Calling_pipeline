@@ -20,8 +20,8 @@ samplesheet_path="${project_dir}/gdc_sample_sheet_test.2024-02-26.tsv"
 
 # Create output and log directories if they don't exist
 input_bam_dir="${project_dir}/bqsr_bam"
-output_muse_dir="variants_calling/MuSE"
-log_dir="./variants_calling/MuSE/log"
+output_muse_dir="./MuSE"
+log_dir="./MuSE/log"
 mkdir -p ${muse_dir} && chmod a+rw ${muse_dir}
 mkdir -p ${log_dir} && chmod a+rw ${log_dir}
 ############### function ###############
