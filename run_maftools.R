@@ -1,5 +1,5 @@
 rm(list=ls())#to remove all objects from the current R environment
-setwd("/Users/jeffery/Desktop/家教/20240501")
+setwd("/Users/")
 library(maftools)
 library(readr)
 
