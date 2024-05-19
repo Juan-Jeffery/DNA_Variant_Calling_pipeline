@@ -5,13 +5,13 @@
 shopt -s expand_aliases
 source ~/.bash_aliases
 # config 
-env_name="WES_preprocessing_SNP" # ���ҦW�ٽнT�{
+env_name="WES_preprocessing_SNP" # Àô¹Ò¦WºÙ½Ð½T»{
 # enable bash script calling conda function
 eval "$(conda shell.bash hook)"
 conda activate ${env_name}
 
 # ref config
-ASSEMBLY_FASTA=/home/data/data_thousand/gatk_index/Homo_sapiens_assembly38.fasta
+ASSEMBLY_FASTA=/home/data/dataset/BWA_index/GRCh38.d1.vd1.fa
 ASSEMBLY=GRCh38
 
 DIR_CACHE=/home/data/database/vep
